@@ -13,7 +13,7 @@ const makeAndAppend = (e) => {
     `
     <div class="w-[50%] bg-gray-800 h-28 mx-auto rounded-md grid grid-rows-3 new__task mt-8">
             <input class="input bg-gray-600 mx-auto p-4 rounded-md w-[80%] text-blue-200 caret-blue-200 mt-6" 
-            type="text" readonly value=${ ogInput.value }>
+            type="text" readonly value="${ ogInput.value }">
             <div class="flex text-blue-300 justify-center mt-8">
                 <button><i class="edit fa-solid fa-pen p-2"></i></button>
                 <button><i class="del fa-solid fa-trash p-2 "></i></button>
